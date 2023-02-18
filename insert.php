@@ -12,7 +12,7 @@ if(!mysqli_select_db($con,'user_info')) {
 $tel = $_POST['tel'];
 
 
-$sql = "INSERT INTO phone_numbers (tel) VALUES ('$tel')";
+$sql = "INSERT INTO phone_numbers VALUES ('$tel')";
 if(!mysqli_query($con,$sql)) {
     echo 'Data not inserted';
 } else {
