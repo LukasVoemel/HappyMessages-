@@ -35,8 +35,13 @@
             <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1">Happy Messages</h1>
                 <h3 class="mb-5"><em>Enter your phone number to recieve messages!</em></h3>
-                <label for="phone">Enter your phone number:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <form action="/tutorial/action.html">
+                    <fieldset>
+                  
+                      <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br /><br />
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                  </form>
             </div>
         </header>
 
