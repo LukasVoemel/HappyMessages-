@@ -60,8 +60,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: rgb(228, 151, 151);
+  --bs-body-color: #fffcff;
+  --bs-body-bg: #476a6f;
 }
 
 *,
@@ -11339,7 +11339,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #7eb09b;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
