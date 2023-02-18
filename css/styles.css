@@ -97,6 +97,8 @@ hr {
   opacity: 0.25;
 }
 
+
+
 hr:not([size]) {
   height: 1px;
 }
@@ -333,8 +335,8 @@ label {
   display: inline-block;
 }
 
-button {
-  border-radius: 0;
+button:hover {
+  background-color: green;
 }
 
 button:focus:not(:focus-visible) {
